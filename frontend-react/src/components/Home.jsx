@@ -11,7 +11,7 @@ function Home() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quo fugiat fugit voluptatibus! Repellat voluptatum quam doloremque pariatur! Ipsa molestias laboriosam quisquam alias est quasi deleniti laborum autem numquam tempora!
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque quia, officiis voluptatum consequatur dolores, atque veniam error a iste ducimus pariatur cum obcaecati rerum. Corporis dolore tempora natus maxime nemo!
             </p>
-            <Button url='login' class='btn-info' text='Login' />
+            <Button url='/dashboard' class='btn-info' text='Explore Now' />
         </div>
        </div>
     </>
