@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSpinner } from '@fortawesome/free-solid-svg-icons'
 import { useNavigate } from 'react-router-dom'
 import { AuthContext } from '../AuthProvider'
-import { axiosRequest } from '../interceptor/axiosInterceptor'
+import axiosRequest from '../interceptor/axiosInterceptor'
 
 function Login() {
   const [user, setUser] = useState({ username: '', password: '' })
   const [errors, setErrors] = useState('')
   const [success, setSuccess] = useState(false)
   const [loading, setLoading] = useState(false)
-  const {isLoggedIn, setIsLoggedIn} = useContext(AuthContext)
+  const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext)
 
   const navigate = useNavigate()
 
